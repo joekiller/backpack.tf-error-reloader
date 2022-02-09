@@ -15,6 +15,10 @@ and then install using this link: [backpack.tf error reloader.user.js](https://g
 
 _____________________________________________
 
+#### 0.1.2
+
+* Update bp.tf url matching
+
 #### 0.1.0
 
 * First release
