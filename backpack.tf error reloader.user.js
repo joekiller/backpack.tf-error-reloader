@@ -44,7 +44,7 @@ function setup() {
 			} else if ("503 Service Temporarily Unavailable" === row.innerText) {
 				setTimeout(reload, errorDelay);
 			} else if ("429 Too Many Requests" === row.innerText) {
-				setTimeout(reload, errorDelay);
+				setTimeout(reload, errorDelay + 1000);
 			}
 		} catch {
 			try {
