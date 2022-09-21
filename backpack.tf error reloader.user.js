@@ -43,6 +43,8 @@ function setup() {
 				setTimeout(reload, errorDelay);
 			} else if ("503 Service Temporarily Unavailable" === row.innerText) {
 				setTimeout(reload, errorDelay);
+			} else if ("429 Too Many Requests" === row.innerText) {
+				setTimeout(reload, errorDelay);
 			}
 		} catch {
 			try {
